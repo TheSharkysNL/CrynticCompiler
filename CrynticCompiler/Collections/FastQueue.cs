@@ -217,11 +217,22 @@ public sealed class FastQueue<T> : ICollection<T>, IReadOnlyCollection<T>
         if (collectionCount < count | count == 0)
             return false;
 
+        if (RuntimeHelpers.IsReferenceOrContainsReferences<T>())
+        {
+            Array.Clear(arr, head, head + count < arr.Length ? count : arr.Length - head);
+            if (head + count >= arr.Length)
+            {
+                Array.Clear(arr, 0, head);
+            }
+        }
+
         head += count;
-        if (head >= arr.Length) // TODO: clear array if it contains references
+        if (head >= arr.Length)
             head -= arr.Length;
         this.head = head; 
         this.count -= count;
+        
+        
 
         return true;
     }
@@ -383,7 +394,7 @@ public sealed class FastQueue<T> : ICollection<T>, IReadOnlyCollection<T>
 
     bool ICollection<T>.Remove(T item)
     {
-        throw new NotImplementedException();
+        throw new NotImplementedException(); // impossible
     }
 }
 

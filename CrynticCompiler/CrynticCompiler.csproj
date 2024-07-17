@@ -29,10 +29,10 @@
     <None Remove="Generator\" />
     <None Remove="Comments\Symbols\" />
     <None Remove="IO\" />
+    <None Remove="IO\**" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Generator\" />
-    <Folder Include="IO\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
@@ -49,5 +49,9 @@
     <Compile Remove="Parser\Nodes\TypeDefinition.cs" />
     <Compile Remove="Parser\Nodes\VariableDeclaration.cs" />
     <Compile Remove="Parser\Nodes\VariableDefinition.cs" />
+    <Compile Remove="IO\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="IO\**" />
   </ItemGroup>
 </Project>

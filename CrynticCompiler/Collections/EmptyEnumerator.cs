@@ -9,7 +9,7 @@ internal readonly struct EmptyEnumerator<T> : IEnumerator<T>
 
     public T Current => default!;
 
-    object IEnumerator.Current => throw new NotImplementedException();
+    object IEnumerator.Current => default!;
 
     public void Dispose()
     {
