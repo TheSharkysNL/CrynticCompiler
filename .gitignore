@@ -1,0 +1,15 @@
+/CrynticCompiler.Runner
+/C
+/Comments/
+
+/CrynticCompiler/obj
+/CrynticCompiler/bin
+
+/CrynticCompiler.Json/obj
+/CrynticCompiler.Json/bin
+
+/CrynticCompiler.Tags/obj
+/CrynticCompiler.Tags/bin
+
+.idea/
+.vs/
