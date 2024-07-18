@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler.Runner", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler.Json", "CrynticCompiler.Json\CrynticCompiler.Json.csproj", "{84721C16-04C8-422B-82B1-DC44F3D94C05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{04009098-4C75-435C-9432-17CF639EB696}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{84721C16-04C8-422B-82B1-DC44F3D94C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84721C16-04C8-422B-82B1-DC44F3D94C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84721C16-04C8-422B-82B1-DC44F3D94C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04009098-4C75-435C-9432-17CF639EB696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04009098-4C75-435C-9432-17CF639EB696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04009098-4C75-435C-9432-17CF639EB696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04009098-4C75-435C-9432-17CF639EB696}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,29 +29,11 @@
     <None Remove="Generator\" />
     <None Remove="Comments\Symbols\" />
     <None Remove="IO\" />
-    <None Remove="IO\**" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Generator\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Parser\Nodes\FunctionDefinition.cs" />
-    <Compile Remove="Parser\Nodes\FunctionDeclaration.cs" />
-    <Compile Remove="Parser\Nodes\FieldDeclaration.cs" />
-    <Compile Remove="Parser\Nodes\DotExpression.cs" />
-    <Compile Remove="Parser\Nodes\INamedNode.cs" />
-    <Compile Remove="Parser\Nodes\BinaryExpression.cs" />
-    <Compile Remove="Parser\Nodes\Parameter.cs" />
-    <Compile Remove="Parser\Nodes\TypeDeclaration.cs" />
-    <Compile Remove="Parser\Nodes\TypeDefinition.cs" />
-    <Compile Remove="Parser\Nodes\VariableDeclaration.cs" />
-    <Compile Remove="Parser\Nodes\VariableDefinition.cs" />
-    <Compile Remove="IO\**" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Remove="IO\**" />
   </ItemGroup>
 </Project>

@@ -11,5 +11,8 @@
 /CrynticCompiler.Tags/obj
 /CrynticCompiler.Tags/bin
 
+/Example/obj
+/Example/bin
+
 .idea/
 .vs/
