@@ -111,7 +111,7 @@ public sealed class FileReader : Stream
                 bufferLengthLeft = bufferLength;
             }
 
-            spanLength = Math.Min(spanLength, bufferLength);
+            spanLength = Math.Min(spanLength, bufferLengthLeft);
             int copiedAmount = spanLength;
             ref byte bufferRef = ref MemoryMarshal.GetArrayDataReference(buffer);
             ref byte spanRef = ref MemoryMarshal.GetReference(span);

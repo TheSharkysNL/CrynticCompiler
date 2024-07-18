@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="../CryticCompiler/CrynticCompiler.csproj" />
+        <ProjectReference Include="../CrynticCompiler/CrynticCompiler.csproj" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="../CrynticCompiler.Json/CrynticCompiler.Json.csproj" />

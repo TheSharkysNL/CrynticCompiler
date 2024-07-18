@@ -3,19 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.7
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{04009098-4C75-435C-9432-17CF639EB696}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler", "CrynticCompiler\CrynticCompiler.csproj", "{123F8ADE-1333-446F-B9E9-9CF1C216B368}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C", "C\C.csproj", "{916319A3-435F-467A-A64D-A26FA5BE69FA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comments", "Comments\Comments.csproj", "{75980647-31B9-4798-8CFA-FE7A4FF5C3CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler.Tags", "CrynticCompiler.Tags\CrynticCompiler.Tags.csproj", "{FBD8053D-B883-414B-B7E0-7421CB7F8C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler.Runner", "CrynticCompiler.Runner\CrynticCompiler.Runner.csproj", "{AD32A375-2CC5-4C4A-928A-EE48FE30E40F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrynticCompiler.Json", "CrynticCompiler.Json\CrynticCompiler.Json.csproj", "{84721C16-04C8-422B-82B1-DC44F3D94C05}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{04009098-4C75-435C-9432-17CF639EB696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
