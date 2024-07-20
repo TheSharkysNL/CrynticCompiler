@@ -2,6 +2,7 @@
 
 - [How to use](#how-to-use)
   - [Tokenization](#tokenization)
+    - [TokenType](#tokentype)  
   - [Parser](#parser)
     - [Semantic model](#semantic-model)
   - [Generation](#generation)
@@ -81,6 +82,8 @@ public partial class MyTokenizer<TData> : Tokenizer<TData>
         value == previousStringChar;
 }
 ```
+
+### TokenType
 
 The tokenizer has a `GetEnumerator()` function which will enumerate over tokens (`Token<TData>`).
 These tokens have token types which can be found in the `TokenType` class.
