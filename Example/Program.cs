@@ -27,7 +27,8 @@ public static class Program
     private static void RunCompiler<T>(string path)
         where T : unmanaged, IBinaryInteger<T>
     {
-        MyTokenizer<T> tokenizer = new(Reader.Create<T>(path));
+        using Reader<T> reader = Reader.Create<T>(path);
+        MyTokenizer<T> tokenizer = new(reader);
         MyParser<T> parseTree = new(tokenizer);
         
         foreach (var error in parseTree.Errors)
