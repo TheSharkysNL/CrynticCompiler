@@ -10,12 +10,12 @@
 
 # How to use
 
-First download the [source code](https://github.com/TheSharkysNL/CrynticCompiler/) from the github page. 
-Once you have done that you can now include the code as a project reference.
+First download the [latest release](https://github.com/TheSharkysNL/CrynticCompiler/releases/) from the github page. 
+Once you have done that you can now include the code as a reference.
 
 ```csproj
 <ItemGroup>
-    <ProjectReference Include="{PathToFolder}/CryticCompiler/CrynticCompiler.csproj" />
+    <Reference Include="{PathToDll}CrynticCompiler.dll" />
 </ItemGroup>
 ```
 
